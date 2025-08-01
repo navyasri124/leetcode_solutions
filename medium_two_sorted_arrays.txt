@@ -1,0 +1,8 @@
+c=nums1+nums2
+        c.sort()
+        n=len(c)
+        if n%2==0:
+            median=((c[n//2-1])+(c[n//2]))/2
+        else:
+            median=(c[n//2])
+        return median
